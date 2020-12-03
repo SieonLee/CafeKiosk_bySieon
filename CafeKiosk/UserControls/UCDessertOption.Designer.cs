@@ -52,25 +52,31 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnPlus.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnPlus.Location = new System.Drawing.Point(175, 10);
+            this.btnPlus.Location = new System.Drawing.Point(175, 16);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(44, 29);
             this.btnPlus.TabIndex = 16;
             this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
+            this.btnMinus.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnMinus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnMinus.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnMinus.Location = new System.Drawing.Point(35, 10);
+            this.btnMinus.Location = new System.Drawing.Point(35, 16);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(44, 29);
             this.btnMinus.TabIndex = 15;
             this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.UseVisualStyleBackColor = false;
             this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // label3
@@ -93,84 +99,99 @@
             // 
             // btnToCart
             // 
+            this.btnToCart.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnToCart.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnToCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToCart.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnToCart.Location = new System.Drawing.Point(238, 408);
             this.btnToCart.Name = "btnToCart";
             this.btnToCart.Size = new System.Drawing.Size(116, 29);
             this.btnToCart.TabIndex = 25;
             this.btnToCart.Text = "장바구니 담기";
-            this.btnToCart.UseVisualStyleBackColor = true;
+            this.btnToCart.UseVisualStyleBackColor = false;
             this.btnToCart.Click += new System.EventHandler(this.btnToCart_Click);
             // 
             // btnReturn
             // 
+            this.btnReturn.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReturn.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnReturn.Location = new System.Drawing.Point(100, 408);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(99, 29);
             this.btnReturn.TabIndex = 24;
             this.btnReturn.Text = "이전 화면";
-            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.UseVisualStyleBackColor = false;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnCreamMore);
             this.groupBox1.Controls.Add(this.btnCreamLess);
-            this.groupBox1.Location = new System.Drawing.Point(100, 173);
+            this.groupBox1.Location = new System.Drawing.Point(100, 185);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(254, 44);
+            this.groupBox1.Size = new System.Drawing.Size(254, 55);
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             // 
             // btnCreamMore
             // 
             this.btnCreamMore.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnCreamMore.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnCreamMore.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnCreamMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreamMore.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnCreamMore.Location = new System.Drawing.Point(165, 11);
+            this.btnCreamMore.Location = new System.Drawing.Point(155, 18);
             this.btnCreamMore.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCreamMore.Name = "btnCreamMore";
-            this.btnCreamMore.Size = new System.Drawing.Size(67, 29);
+            this.btnCreamMore.Size = new System.Drawing.Size(78, 29);
             this.btnCreamMore.TabIndex = 28;
             this.btnCreamMore.TabStop = true;
             this.btnCreamMore.Text = "휘핑 많이";
             this.btnCreamMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCreamMore.UseVisualStyleBackColor = true;
+            this.btnCreamMore.UseVisualStyleBackColor = false;
             this.btnCreamMore.Click += new System.EventHandler(this.btnCreamMore_CheckedChanged);
             // 
             // btnCreamLess
             // 
             this.btnCreamLess.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnCreamLess.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnCreamLess.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnCreamLess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreamLess.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnCreamLess.Location = new System.Drawing.Point(33, 11);
+            this.btnCreamLess.Location = new System.Drawing.Point(32, 18);
             this.btnCreamLess.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCreamLess.Name = "btnCreamLess";
-            this.btnCreamLess.Size = new System.Drawing.Size(67, 29);
+            this.btnCreamLess.Size = new System.Drawing.Size(74, 29);
             this.btnCreamLess.TabIndex = 27;
             this.btnCreamLess.TabStop = true;
             this.btnCreamLess.Text = "휘핑 적게";
             this.btnCreamLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCreamLess.UseVisualStyleBackColor = true;
+            this.btnCreamLess.UseVisualStyleBackColor = false;
             this.btnCreamLess.Click += new System.EventHandler(this.btnCreamLess_CheckedChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btnAddIceC);
-            this.groupBox2.Location = new System.Drawing.Point(100, 226);
+            this.groupBox2.Location = new System.Drawing.Point(100, 244);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(254, 44);
+            this.groupBox2.Size = new System.Drawing.Size(138, 55);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             // 
             // btnAddIceC
             // 
             this.btnAddIceC.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnAddIceC.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnAddIceC.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnAddIceC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddIceC.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnAddIceC.Location = new System.Drawing.Point(75, 10);
+            this.btnAddIceC.Location = new System.Drawing.Point(18, 18);
             this.btnAddIceC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddIceC.Name = "btnAddIceC";
             this.btnAddIceC.Size = new System.Drawing.Size(102, 29);
@@ -178,32 +199,36 @@
             this.btnAddIceC.TabStop = true;
             this.btnAddIceC.Text = "아이스크림 추가";
             this.btnAddIceC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAddIceC.UseVisualStyleBackColor = true;
+            this.btnAddIceC.UseVisualStyleBackColor = false;
             this.btnAddIceC.CheckedChanged += new System.EventHandler(this.btnAddIceC_CheckedChanged);
             this.btnAddIceC.Click += new System.EventHandler(this.btnAddIceC_Click);
             // 
             // btnAddFork
             // 
             this.btnAddFork.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnAddFork.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnAddFork.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddFork.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnAddFork.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddFork.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.btnAddFork.Location = new System.Drawing.Point(89, 10);
+            this.btnAddFork.Location = new System.Drawing.Point(11, 18);
             this.btnAddFork.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddFork.Name = "btnAddFork";
-            this.btnAddFork.Size = new System.Drawing.Size(72, 29);
+            this.btnAddFork.Size = new System.Drawing.Size(78, 29);
             this.btnAddFork.TabIndex = 27;
             this.btnAddFork.TabStop = true;
             this.btnAddFork.Text = "포크 추가";
             this.btnAddFork.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAddFork.UseVisualStyleBackColor = true;
+            this.btnAddFork.UseVisualStyleBackColor = false;
             this.btnAddFork.CheckedChanged += new System.EventHandler(this.btnAddFork_CheckedChanged);
             this.btnAddFork.Click += new System.EventHandler(this.btnAddFork_Click);
             // 
             // lblQuantity
             // 
-            this.lblQuantity.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblQuantity.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblQuantity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblQuantity.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
-            this.lblQuantity.Location = new System.Drawing.Point(105, 17);
+            this.lblQuantity.Location = new System.Drawing.Point(105, 23);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(44, 20);
             this.lblQuantity.TabIndex = 28;
@@ -211,6 +236,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox4.Controls.Add(this.lblQuantity);
             this.groupBox4.Controls.Add(this.btnPlus);
             this.groupBox4.Controls.Add(this.btnMinus);
@@ -218,18 +244,18 @@
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(254, 44);
+            this.groupBox4.Size = new System.Drawing.Size(254, 57);
             this.groupBox4.TabIndex = 29;
             this.groupBox4.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnAddFork);
-            this.groupBox3.Location = new System.Drawing.Point(100, 274);
+            this.groupBox3.Location = new System.Drawing.Point(244, 244);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(254, 44);
+            this.groupBox3.Size = new System.Drawing.Size(110, 55);
             this.groupBox3.TabIndex = 30;
             this.groupBox3.TabStop = false;
             // 

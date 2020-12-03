@@ -64,13 +64,16 @@
             // btnSyrup
             // 
             this.btnSyrup.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnSyrup.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnSyrup.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnSyrup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSyrup.Location = new System.Drawing.Point(35, 20);
             this.btnSyrup.Name = "btnSyrup";
             this.btnSyrup.Size = new System.Drawing.Size(84, 22);
             this.btnSyrup.TabIndex = 0;
             this.btnSyrup.TabStop = true;
             this.btnSyrup.Text = "시럽 추가";
-            this.btnSyrup.UseVisualStyleBackColor = true;
+            this.btnSyrup.UseVisualStyleBackColor = false;
             this.btnSyrup.CheckedChanged += new System.EventHandler(this.btnSyrup_CheckedChanged);
             this.btnSyrup.Click += new System.EventHandler(this.btnSyrup_Click);
             // 
@@ -86,13 +89,16 @@
             // btnWhip
             // 
             this.btnWhip.Appearance = System.Windows.Forms.Appearance.Button;
-            this.btnWhip.Location = new System.Drawing.Point(35, 20);
+            this.btnWhip.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnWhip.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnWhip.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWhip.Location = new System.Drawing.Point(26, 20);
             this.btnWhip.Name = "btnWhip";
             this.btnWhip.Size = new System.Drawing.Size(84, 22);
             this.btnWhip.TabIndex = 0;
             this.btnWhip.TabStop = true;
             this.btnWhip.Text = "휘핑 추가";
-            this.btnWhip.UseVisualStyleBackColor = true;
+            this.btnWhip.UseVisualStyleBackColor = false;
             this.btnWhip.CheckedChanged += new System.EventHandler(this.btnWhip_CheckedChanged);
             this.btnWhip.Click += new System.EventHandler(this.btnWhip_Click);
             // 
@@ -109,25 +115,31 @@
             // btnHot
             // 
             this.btnHot.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnHot.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnHot.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnHot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHot.Location = new System.Drawing.Point(180, 20);
             this.btnHot.Name = "btnHot";
             this.btnHot.Size = new System.Drawing.Size(84, 22);
             this.btnHot.TabIndex = 3;
             this.btnHot.TabStop = true;
             this.btnHot.Text = "핫";
-            this.btnHot.UseVisualStyleBackColor = true;
+            this.btnHot.UseVisualStyleBackColor = false;
             this.btnHot.Click += new System.EventHandler(this.btnHot_CheckedChanged);
             // 
             // btnIce
             // 
             this.btnIce.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnIce.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnIce.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnIce.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIce.Location = new System.Drawing.Point(26, 20);
             this.btnIce.Name = "btnIce";
             this.btnIce.Size = new System.Drawing.Size(84, 22);
             this.btnIce.TabIndex = 2;
             this.btnIce.TabStop = true;
             this.btnIce.Text = "아이스";
-            this.btnIce.UseVisualStyleBackColor = true;
+            this.btnIce.UseVisualStyleBackColor = false;
             this.btnIce.Click += new System.EventHandler(this.btnIce_CheckedChanged);
             // 
             // groupBox4
@@ -143,25 +155,31 @@
             // btnGrande
             // 
             this.btnGrande.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnGrande.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnGrande.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnGrande.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrande.Location = new System.Drawing.Point(180, 15);
             this.btnGrande.Name = "btnGrande";
             this.btnGrande.Size = new System.Drawing.Size(84, 22);
             this.btnGrande.TabIndex = 1;
             this.btnGrande.TabStop = true;
             this.btnGrande.Text = "그란데";
-            this.btnGrande.UseVisualStyleBackColor = true;
+            this.btnGrande.UseVisualStyleBackColor = false;
             this.btnGrande.Click += new System.EventHandler(this.btnGrande_CheckedChanged);
             // 
             // btnTall
             // 
             this.btnTall.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnTall.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnTall.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnTall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTall.Location = new System.Drawing.Point(26, 15);
             this.btnTall.Name = "btnTall";
             this.btnTall.Size = new System.Drawing.Size(84, 22);
             this.btnTall.TabIndex = 0;
             this.btnTall.TabStop = true;
             this.btnTall.Text = "톨";
-            this.btnTall.UseVisualStyleBackColor = true;
+            this.btnTall.UseVisualStyleBackColor = false;
             this.btnTall.Click += new System.EventHandler(this.btnTall_CheckedChanged);
             // 
             // label3
@@ -174,27 +192,33 @@
             // 
             // btnToCart
             // 
-            this.btnToCart.Location = new System.Drawing.Point(262, 408);
+            this.btnToCart.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnToCart.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnToCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnToCart.Location = new System.Drawing.Point(246, 408);
             this.btnToCart.Name = "btnToCart";
-            this.btnToCart.Size = new System.Drawing.Size(92, 23);
+            this.btnToCart.Size = new System.Drawing.Size(103, 23);
             this.btnToCart.TabIndex = 60;
             this.btnToCart.Text = "장바구니 담기";
-            this.btnToCart.UseVisualStyleBackColor = true;
+            this.btnToCart.UseVisualStyleBackColor = false;
             this.btnToCart.Click += new System.EventHandler(this.btnToCart_Click);
             // 
             // btnReturn
             // 
-            this.btnReturn.Location = new System.Drawing.Point(149, 408);
+            this.btnReturn.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.Location = new System.Drawing.Point(117, 408);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(75, 23);
+            this.btnReturn.Size = new System.Drawing.Size(93, 23);
             this.btnReturn.TabIndex = 59;
             this.btnReturn.Text = "이전 화면";
-            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.UseVisualStyleBackColor = false;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // lblQuantity
             // 
-            this.lblQuantity.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblQuantity.BackColor = System.Drawing.Color.NavajoWhite;
             this.lblQuantity.Location = new System.Drawing.Point(203, 144);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(48, 25);
@@ -203,22 +227,28 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnPlus.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Location = new System.Drawing.Point(262, 145);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(84, 23);
             this.btnPlus.TabIndex = 57;
             this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
+            this.btnMinus.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnMinus.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
+            this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Location = new System.Drawing.Point(108, 145);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(84, 23);
             this.btnMinus.TabIndex = 56;
             this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.UseVisualStyleBackColor = false;
             this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // label1

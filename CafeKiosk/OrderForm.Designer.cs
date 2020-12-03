@@ -49,9 +49,8 @@
             this.panelTop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
-            this.panelTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(573, 123);
+            this.panelTop.Size = new System.Drawing.Size(501, 99);
             this.panelTop.TabIndex = 0;
             // 
             // panelLeft
@@ -64,10 +63,9 @@
             this.panelLeft.Controls.Add(this.btnJuice);
             this.panelLeft.Controls.Add(this.btnCoffee);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft.Location = new System.Drawing.Point(0, 123);
-            this.panelLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelLeft.Location = new System.Drawing.Point(0, 99);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(128, 719);
+            this.panelLeft.Size = new System.Drawing.Size(112, 575);
             this.panelLeft.TabIndex = 1;
             // 
             // btnStart
@@ -78,10 +76,9 @@
             this.btnStart.Font = new System.Drawing.Font("한컴 윤체 L", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnStart.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStart.Location = new System.Drawing.Point(14, 91);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnStart.Location = new System.Drawing.Point(12, 73);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(114, 48);
+            this.btnStart.Size = new System.Drawing.Size(100, 38);
             this.btnStart.TabIndex = 6;
             this.btnStart.Text = "시작";
             this.btnStart.UseVisualStyleBackColor = false;
@@ -90,10 +87,9 @@
             // panelslide
             // 
             this.panelslide.BackColor = System.Drawing.Color.Goldenrod;
-            this.panelslide.Location = new System.Drawing.Point(0, 91);
-            this.panelslide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelslide.Location = new System.Drawing.Point(0, 73);
             this.panelslide.Name = "panelslide";
-            this.panelslide.Size = new System.Drawing.Size(19, 48);
+            this.panelslide.Size = new System.Drawing.Size(17, 38);
             this.panelslide.TabIndex = 0;
             // 
             // btnCart
@@ -103,10 +99,9 @@
             this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCart.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnCart.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnCart.Location = new System.Drawing.Point(14, 530);
-            this.btnCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCart.Location = new System.Drawing.Point(12, 424);
             this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(114, 48);
+            this.btnCart.Size = new System.Drawing.Size(100, 38);
             this.btnCart.TabIndex = 5;
             this.btnCart.Text = "장바구니";
             this.btnCart.UseVisualStyleBackColor = false;
@@ -119,10 +114,9 @@
             this.btnDessert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDessert.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnDessert.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDessert.Location = new System.Drawing.Point(14, 408);
-            this.btnDessert.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDessert.Location = new System.Drawing.Point(12, 326);
             this.btnDessert.Name = "btnDessert";
-            this.btnDessert.Size = new System.Drawing.Size(114, 48);
+            this.btnDessert.Size = new System.Drawing.Size(100, 38);
             this.btnDessert.TabIndex = 4;
             this.btnDessert.Text = "디저트";
             this.btnDessert.UseVisualStyleBackColor = false;
@@ -135,10 +129,9 @@
             this.btnJuice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJuice.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnJuice.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnJuice.Location = new System.Drawing.Point(14, 301);
-            this.btnJuice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnJuice.Location = new System.Drawing.Point(12, 241);
             this.btnJuice.Name = "btnJuice";
-            this.btnJuice.Size = new System.Drawing.Size(114, 48);
+            this.btnJuice.Size = new System.Drawing.Size(100, 38);
             this.btnJuice.TabIndex = 3;
             this.btnJuice.Text = "쥬스";
             this.btnJuice.UseVisualStyleBackColor = false;
@@ -152,10 +145,9 @@
             this.btnCoffee.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.btnCoffee.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnCoffee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCoffee.Location = new System.Drawing.Point(14, 198);
-            this.btnCoffee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCoffee.Location = new System.Drawing.Point(12, 158);
             this.btnCoffee.Name = "btnCoffee";
-            this.btnCoffee.Size = new System.Drawing.Size(114, 48);
+            this.btnCoffee.Size = new System.Drawing.Size(100, 38);
             this.btnCoffee.TabIndex = 2;
             this.btnCoffee.Text = "커피";
             this.btnCoffee.UseVisualStyleBackColor = false;
@@ -165,23 +157,21 @@
             // 
             this.panelCenter.BackColor = System.Drawing.Color.OldLace;
             this.panelCenter.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelCenter.Location = new System.Drawing.Point(128, 123);
-            this.panelCenter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelCenter.Location = new System.Drawing.Point(112, 99);
             this.panelCenter.Name = "panelCenter";
-            this.panelCenter.Size = new System.Drawing.Size(445, 719);
+            this.panelCenter.Size = new System.Drawing.Size(389, 575);
             this.panelCenter.TabIndex = 0;
             // 
             // OrderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(573, 842);
+            this.ClientSize = new System.Drawing.Size(501, 674);
             this.Controls.Add(this.panelCenter);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.panelTop);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderForm";
             this.Text = "OrderForm";
             this.panelLeft.ResumeLayout(false);
