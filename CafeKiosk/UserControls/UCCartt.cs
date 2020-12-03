@@ -16,6 +16,7 @@ namespace CafeKiosk
         public UCCartt()
         {
             InitializeComponent();
+            textBox1.Text = $"주문번호 : " + Dao.Order.GetMaxKey().ToString();
         }
         public int OrderId { get; set; }
 
@@ -29,19 +30,16 @@ namespace CafeKiosk
 
             List<OrderLineOption> wantedList = new List<OrderLineOption>();
 
-
             foreach (var item in gridViewInformation)
             {
                 OrderLineOption information = new OrderLineOption();
+                information.OrderId = item.OrderId;
+                information.Quantity = item.OrderLine.Quantity;
                 information.MenuName = item.OrderLine.Menu.Name;
                 information.OptionName = item.Option.Name;
                 information.MenuPrice = item.OrderLine.Menu.Price;
                 wantedList.Add(information);
             }
-
-
-
-
             bdsOrderLineOption.DataSource = wantedList;
         }
         private void btnCheckOut_Click(object sender, EventArgs e)

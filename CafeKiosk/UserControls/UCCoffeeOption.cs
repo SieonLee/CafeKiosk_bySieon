@@ -19,7 +19,7 @@ namespace CafeKiosk
         OrderLineOption _orderLineOption = new OrderLineOption();
         private int _orderLineId;
         int quantityCoffee = 1;
-
+        int i = 0;
         public UCCoffeeOption()
         {
             InitializeComponent();
@@ -46,7 +46,6 @@ namespace CafeKiosk
                 _orderLineOption.OrderLineID = _orderLineId;
                 _orderLineOption.OptionID = number;
                 Dao.OrderLineOption.Insert(_orderLineOption);
-
             }
         }
 
@@ -84,9 +83,9 @@ namespace CafeKiosk
         //옵션 : 사이즈
         private void btnTall_CheckedChanged(object sender, EventArgs e)
         {
-            if (btnTall.Checked == true)
-            {
-                optionNum.Add(2);
+           if (btnTall.Checked == true)
+              {
+                    optionNum.Add(2);
             }
         }
 

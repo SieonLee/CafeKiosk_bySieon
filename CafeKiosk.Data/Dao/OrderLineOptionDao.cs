@@ -33,7 +33,8 @@ namespace CafeKiosk.Data
                                 OptionName = x.Option.Name,
                                 MenuName = x.OrderLine.Menu.Name,
                                 MenuPrice = x.OrderLine.Menu.Price,
-                                Quantity = x.OrderLine.Quantity
+                                Quantity = x.OrderLine.Quantity, //
+                                OrderId = x.OrderLine.OrderID  //
                             };
 
                 var list = query.ToList();
@@ -42,8 +43,9 @@ namespace CafeKiosk.Data
                 {
                     item.OrderLineOption.Option.Name = item.OptionName;
                     item.OrderLineOption.OrderLine.Menu.Name = item.MenuName;
-                    item.OrderLineOption.OrderLine.Quantity = item.Quantity;
+                    item.OrderLineOption.OrderLine.Quantity = item.Quantity; //
                     item.OrderLineOption.OrderLine.Menu.Price = item.MenuPrice;
+                    item.OrderLineOption.OrderLine.OrderID = item.OrderId; //
 
                 }
 

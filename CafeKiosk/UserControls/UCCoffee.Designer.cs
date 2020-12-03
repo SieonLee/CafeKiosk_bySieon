@@ -52,10 +52,9 @@
             // btnEspresso
             // 
             this.btnEspresso.Image = ((System.Drawing.Image)(resources.GetObject("btnEspresso.Image")));
-            this.btnEspresso.Location = new System.Drawing.Point(40, 52);
-            this.btnEspresso.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEspresso.Location = new System.Drawing.Point(212, 42);
             this.btnEspresso.Name = "btnEspresso";
-            this.btnEspresso.Size = new System.Drawing.Size(159, 162);
+            this.btnEspresso.Size = new System.Drawing.Size(139, 130);
             this.btnEspresso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnEspresso.TabIndex = 0;
             this.btnEspresso.TabStop = false;
@@ -64,10 +63,9 @@
             // btnAme
             // 
             this.btnAme.Image = ((System.Drawing.Image)(resources.GetObject("btnAme.Image")));
-            this.btnAme.Location = new System.Drawing.Point(242, 52);
-            this.btnAme.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAme.Location = new System.Drawing.Point(35, 42);
             this.btnAme.Name = "btnAme";
-            this.btnAme.Size = new System.Drawing.Size(159, 162);
+            this.btnAme.Size = new System.Drawing.Size(139, 130);
             this.btnAme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnAme.TabIndex = 1;
             this.btnAme.TabStop = false;
@@ -76,10 +74,9 @@
             // btnMoc
             // 
             this.btnMoc.Image = ((System.Drawing.Image)(resources.GetObject("btnMoc.Image")));
-            this.btnMoc.Location = new System.Drawing.Point(242, 268);
-            this.btnMoc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMoc.Location = new System.Drawing.Point(212, 214);
             this.btnMoc.Name = "btnMoc";
-            this.btnMoc.Size = new System.Drawing.Size(159, 162);
+            this.btnMoc.Size = new System.Drawing.Size(139, 130);
             this.btnMoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnMoc.TabIndex = 3;
             this.btnMoc.TabStop = false;
@@ -88,10 +85,9 @@
             // btnCara
             // 
             this.btnCara.Image = ((System.Drawing.Image)(resources.GetObject("btnCara.Image")));
-            this.btnCara.Location = new System.Drawing.Point(40, 268);
-            this.btnCara.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCara.Location = new System.Drawing.Point(35, 214);
             this.btnCara.Name = "btnCara";
-            this.btnCara.Size = new System.Drawing.Size(159, 162);
+            this.btnCara.Size = new System.Drawing.Size(139, 130);
             this.btnCara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnCara.TabIndex = 2;
             this.btnCara.TabStop = false;
@@ -100,10 +96,9 @@
             // btnDol
             // 
             this.btnDol.Image = ((System.Drawing.Image)(resources.GetObject("btnDol.Image")));
-            this.btnDol.Location = new System.Drawing.Point(242, 492);
-            this.btnDol.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDol.Location = new System.Drawing.Point(212, 394);
             this.btnDol.Name = "btnDol";
-            this.btnDol.Size = new System.Drawing.Size(159, 162);
+            this.btnDol.Size = new System.Drawing.Size(139, 130);
             this.btnDol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnDol.TabIndex = 5;
             this.btnDol.TabStop = false;
@@ -112,10 +107,9 @@
             // btnLatte
             // 
             this.btnLatte.Image = ((System.Drawing.Image)(resources.GetObject("btnLatte.Image")));
-            this.btnLatte.Location = new System.Drawing.Point(40, 492);
-            this.btnLatte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLatte.Location = new System.Drawing.Point(35, 394);
             this.btnLatte.Name = "btnLatte";
-            this.btnLatte.Size = new System.Drawing.Size(159, 162);
+            this.btnLatte.Size = new System.Drawing.Size(139, 130);
             this.btnLatte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnLatte.TabIndex = 4;
             this.btnLatte.TabStop = false;
@@ -125,71 +119,71 @@
             // 
             this.label1.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label1.Location = new System.Drawing.Point(37, 219);
+            this.label1.Location = new System.Drawing.Point(209, 175);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 29);
+            this.label1.Size = new System.Drawing.Size(142, 23);
             this.label1.TabIndex = 6;
-            this.label1.Text = "에스프레소 2000원";
+            this.label1.Text = "콜드브루 1500원";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(243, 219);
+            this.label2.Location = new System.Drawing.Point(36, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 29);
+            this.label2.Size = new System.Drawing.Size(138, 23);
             this.label2.TabIndex = 7;
-            this.label2.Text = "아메리카노 2000원";
+            this.label2.Text = "아메리카노 1000원";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(243, 434);
+            this.label3.Location = new System.Drawing.Point(213, 347);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(158, 29);
+            this.label3.Size = new System.Drawing.Size(138, 23);
             this.label3.TabIndex = 9;
-            this.label3.Text = "카페모카 2000원";
+            this.label3.Text = "카페모카 1800원";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label4.Location = new System.Drawing.Point(26, 434);
+            this.label4.Location = new System.Drawing.Point(23, 347);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(183, 29);
+            this.label4.Size = new System.Drawing.Size(160, 23);
             this.label4.TabIndex = 8;
-            this.label4.Text = "카라멜마끼야또 2000원";
+            this.label4.Text = "카라멜마끼야또 1200원";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label5.Location = new System.Drawing.Point(242, 659);
+            this.label5.Location = new System.Drawing.Point(212, 527);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(159, 29);
+            this.label5.Size = new System.Drawing.Size(139, 23);
             this.label5.TabIndex = 11;
-            this.label5.Text = "돌체라떼 2000원";
+            this.label5.Text = "돌체라떼 1400원";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("한컴 윤체 L", 9F);
             this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label6.Location = new System.Drawing.Point(37, 659);
+            this.label6.Location = new System.Drawing.Point(32, 527);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 29);
+            this.label6.Size = new System.Drawing.Size(142, 23);
             this.label6.TabIndex = 10;
-            this.label6.Text = "카페라떼 2000원";
+            this.label6.Text = "카페라떼 1600원";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // UCCoffee
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.Controls.Add(this.label5);
@@ -204,9 +198,8 @@
             this.Controls.Add(this.btnCara);
             this.Controls.Add(this.btnAme);
             this.Controls.Add(this.btnEspresso);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UCCoffee";
-            this.Size = new System.Drawing.Size(445, 719);
+            this.Size = new System.Drawing.Size(389, 575);
             ((System.ComponentModel.ISupportInitialize)(this.btnEspresso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAme)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMoc)).EndInit();
